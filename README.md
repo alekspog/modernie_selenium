@@ -52,10 +52,10 @@ Getting started
 
   * Clone this repository.
   * Download the Appliance(s) you want to use from http://www.modern.ie/ and put the extracted OVA-Files on your Server. You can use the Makefile (see below)
-  * Get the Windows Java (JRE) Installer and Selenium Server Standalone (JAR) and put them beside the OVA-Files (or somewhere else).
+  * Get the Windows Java (JRE) Installer and Selenium Server Standalone (JAR) (http://www.seleniumhq.org/download/) and put them beside the OVA-Files (or somewhere else).
   * Get deuac.iso (https://github.com/tka/SeleniumBox/blob/master/deuac.iso).
-  * Get IEDriverServer.exe (https://code.google.com/p/selenium/wiki/InternetExplorerDriver) and put it in ```./Tools/selenium_conf/```.
-  * Get chromedriver.exe (https://code.google.com/p/selenium/wiki/ChromeDriver) and put it in ```./Tools/selenium_conf/```.
+  * Get IEDriverServer.exe (http://www.seleniumhq.org/download/) and put it in ```./Tools/selenium_conf/```.
+  * Get chromedriver.exe (https://sites.google.com/a/chromium.org/chromedriver/downloads) and put it in ```./Tools/selenium_conf/```.
   * Get Chrome and Firefox, place both in ```./Tools/```.
   * Edit the Selenium Config-Files (```./Tools/Selenium_conf/*/config.json```).
   * Edit ```config.sh``` so it fits your needs (see below for details).
